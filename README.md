@@ -3,7 +3,9 @@ gZIP Azure Function / Logic Apps (Compression/Decompression).
 
 - gZipLogicApp Directory has a generic function to process compress/decompress inputs. I developed it to integrate with Azure serverless products. It can actually be consumed by any cloud/on-prem process/APIs/Components. 
 
-gZip compressions can be used to integrate two systems or just to process data faster. Compressed data size is smaller than original by 20 to 30%. Sometime business applications or source systems are producing/accepting gzip compressed / decompressed data. 
+gZip compressions can be used to integrate two systems or just to process data faster. Compressed data size is smaller than original by 20 to 30%. Sometime business applications or source systems are producing/accepting gzip compressed / decompressed data.  It can be used in multiple scenarios/platform components. For example, I can use it in Logic App or simply use it in any other trigger of functions/logic app/event hub/service bus/data factory. We have data ingestion happening in multiple layers. This Azure function can be used seamlessly to perform gZip operations.
+ 
+gZipServerlessAzureFunction.cs has the neat code with comments.
 
 Azure Function will host this solution as HTTP Trigger. It has following simple requirements
 
