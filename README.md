@@ -1,4 +1,4 @@
-# AzureServerlessRepo
+# gZIP Azure Function (Compression/Decompression)
 gZIP Azure Function / Logic Apps (Compression/Decompression). 
 
 - gZipLogicApp Directory has a generic function to process compress/decompress inputs. I developed it to integrate with Azure serverless products. It can actually be consumed by any cloud/on-prem process/APIs/Components. 
