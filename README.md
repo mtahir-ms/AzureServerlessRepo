@@ -11,3 +11,6 @@ Decompress : Pass it base64 compressed gZip string value. You will need to pass 
 
 Compress: Pass it any string data, It will return compressed base64 string gzip data. 
 
+An example of how to use this function in Logic Apps 
+
+![image](https://user-images.githubusercontent.com/73873314/120121248-f61fbf00-c167-11eb-9890-f6ce6a66a3e5.png)
